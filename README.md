@@ -1,5 +1,5 @@
 # Git___GitHub
-Learn how to use Windows Command Port:
+## Learn how to use Windows Command Port:
 1. cd:
   * "cd ..": return to the parent directory of the current directory
   * "cd <name folder in the current directory>": Move to folder <NAME FOLDER>
