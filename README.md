@@ -1,5 +1,5 @@
 # Git___GitHub
-## Learn how to use Windows Command Port:
+## Learn how to use Windows Command Port
 1. cd:
   * "cd ..": return to the parent directory of the current directory
   * "cd <name folder in the current directory>": Move to folder <NAME FOLDER>
@@ -20,3 +20,5 @@
   * "move <FILE/FOLDER> <FOLDER>": move <FILE/FOLDER> to <FOLDER>
 7. cls:
   * "cls": delete all commands just typed on terminal
+## How does work - Simplified!
+ ![image](https://github.com/SauBanh/Git___GitHub/assets/69725247/5524fe88-e7a4-4b45-971d-776418eae83b)
