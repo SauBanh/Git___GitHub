@@ -30,4 +30,32 @@
  ![image](https://github.com/SauBanh/Git___GitHub/assets/69725247/81a8d0ad-4f49-4b36-993b-eaf03a3e1047)
 ![image](https://github.com/SauBanh/Git___GitHub/assets/69725247/022ecaea-69e8-4063-8a0f-719063a11696)
 ![image](https://github.com/SauBanh/Git___GitHub/assets/69725247/bae1275b-7a6d-4029-988f-a2f5e32c1768)
-![image](https://github.com/SauBanh/Git___GitHub/assets/69725247/c60b3778-d5eb-4362-8914-127dfb683b75)
+ ### command git
+ * "git init": Initializing the Repository
+ * "git status": current state of the repository
+ * "git commit -m"commit some thing you do it": 
+ * "git log": show all action you do, To exit this menu, please press "q" and confirm this with Enter on your keyboard.
+ * "git branch": Check which branch is currently on and show all existing branches at the same time
+ * "git branch <name branch>": create new branch with name <name branch>
+ * "git checkout branch": if the branch does not exist, it will create <name branch> and move to <name branch>, if it does, it will move to the branch <name branch>
+ * "git checkout -b branch": if the branch does not exist, it will create <name branch> and move to <name branch>, if it does, it will move to the branch <name branch>
+ * "git merge": important! you must be on the branch you want to merge into . For example, if we want to merge B into A, we have to be on branch B and type the command git merge <branch to merge>
+ * "git checkout <id in git log>": go to the moment of the state <id in git log>
+ * "git switch <name branch>": switch <name branch>
+ * "git switch -c <name branch>": create new branch with name branch <name branch> and go to new branch
+ * "git ls-file": go to the moment of the state
+ * "git rm <name files>": delete files <name files> in repo
+ * "git checkout <name file>": will check status <name file>
+ * "git checkout .": check all status file
+ * "git restore <name file>": return to the previous state of that file
+ * "git clean -dn": select the files to delete, the file has not been added to the repo
+ * "git clean -df": delete the files checked in the command "git clean -dn"
+ * "git reset <file name>": select <file name> to change to the previous state. If the file is committed, it will return to the uncommitted state, and if you retype this command, it will return to the commit state
+ * "git reset --soft HEAD~1": delete commit
+ * "git branch -D <name branch>": delete branch have name <name branch>
+ * "git branch -D <name branch> <name branch>": delete 2 file
+ ### .gitignore
+ in file log i write 
+ * test.log. file test.log won't add to repo
+ * .log : .log files will not be added to the repo
+ * web-app/*: the web-app directory will not save to the repo along with all the files in that directory nor will it save to the repo
