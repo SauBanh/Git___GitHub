@@ -1,22 +1,22 @@
 # Git___GitHub
 Learn how to use Windows Command Port:
 -cd:
-+"cd ..": return to the parent directory of the current directory
-+"cd <name folder in the current directory>": Move to folder <NAME FOLDER>
-+"cd path": move to the path
-+"cd /": back to the root directory
+  +"cd ..": return to the parent directory of the current directory
+  +"cd <name folder in the current directory>": Move to folder <NAME FOLDER>
+  +"cd path": move to the path
+  +"cd /": back to the root directory
 -dir:
-+"dir": show all folders and files contained in the current directory
-+"mkdir <NAME FOLDER>": create a new folder with the name <NAME FOLDER>
+  +"dir": show all folders and files contained in the current directory
+  +"mkdir <NAME FOLDER>": create a new folder with the name <NAME FOLDER>
 -echo
-+"echo <NAME FILE>": create a new file with name <NAME FILE>
-+"echo <CONTENT> <NAME FILE>": create a new file with the name <NAME FOLDER> and the content inside the file is <CONTENT>
+  +"echo <NAME FILE>": create a new file with name <NAME FILE>
+  +"echo <CONTENT> <NAME FILE>": create a new file with the name <NAME FOLDER> and the content inside the file is <CONTENT>
 -del:
-+"del <FILE NAME>": delete <FILE NAME> present in current directory
-+"mrdir <FOLDER NAME>": delete <FOLDER NAME>
+  +"del <FILE NAME>": delete <FILE NAME> present in current directory
+  +"mrdir <FOLDER NAME>": delete <FOLDER NAME>
 -copy:
-+"copy <FILE> <FOLDER>": copy <FILE> to <FLODER>
+  +"copy <FILE> <FOLDER>": copy <FILE> to <FLODER>
 -move:
-+"move <FILE/FOLDER> <FOLDER>": move <FILE/FOLDER> to <FOLDER>
+  +"move <FILE/FOLDER> <FOLDER>": move <FILE/FOLDER> to <FOLDER>
 -cls:
-+"cls": delete all commands just typed on terminal
+  +"cls": delete all commands just typed on terminal
